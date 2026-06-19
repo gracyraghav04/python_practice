@@ -9,4 +9,4 @@ for element in l:
     if(element<min_num):
         min_num=element
 print(f"minimum element is {min_num}")   
-print("minimum element is",min_num)   
+#print("minimum element is",min_num)   
