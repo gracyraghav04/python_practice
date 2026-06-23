@@ -1,11 +1,13 @@
 class student:
-    def __init__(self,n):
+    def __init__(self,n,a):
         self.name=n #public attribute #convention plus fully accessile
 
-        self._age=20 #private attribute # convention plus fully accessile
-        self._grade="A" #protected attribute #raise error if tried to  get accessed
-s1=student("Elly")  
-s1._age=21      
+        self._age=a #protected attribute # convention plus fully accessile
+        self.__grade="A" #private attribute #raise error if tried to  get accessed
+s1=student("Elly",20)  
+s1.name="akku"
+    
 print(s1.name)
 print(s1._age)
-print(s1._grade)
+
+print(s1.__grade)
