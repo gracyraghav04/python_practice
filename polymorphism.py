@@ -8,7 +8,11 @@ class Cat:
         print("Meow")
 
 
-animals = [Dog(), Cat()]
+'''animals = [Dog(), Cat()]
 
 for a in animals:
-    a.sound()
+    a.sound()'''
+c=Cat()
+d=Dog()
+c.sound()
+d.sound()
